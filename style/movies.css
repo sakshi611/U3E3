@@ -1,0 +1,26 @@
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#movies{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+.movie_tab{
+    height: 300px;
+    border: 1px solid blue;
+}
+img{
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+#search{
+    margin-left: 40%;
+    height: 30px;
+    width: 30%;
+}
